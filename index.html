@@ -22,9 +22,69 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
+    <!-- Header -->
+    <header class="header" data-header>
+      <div class="container">
+        <!-- Logo -->
+        <a href="#" class="logo">
+          <p class="site-title">On Trip</p>
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <!-- Logo -->
+            <a href="#" class="logo">
+              <p class="site-title">On Trip</p>
+            </a>
+
+            <!-- Close menu btn -->
+            <button
+              class="nav-toggle-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </div>
+
+          <!-- Navigation links -->
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#" class="navbar-link active">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Categories</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Destinations</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Packages</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Testimonials</a>
+            </li>
+          </ul>
+
+          <!-- Header buttons -->
+          <div class="header-action">
+            <a href="#" class="login-btn">Login</a>
+            <a href="#" class="btn btn-primary">Register</a>
+          </div>
+        </nav>
+
+        <!-- Open menu btn -->
+        <button class="nav-toggle-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-overlay data-nav-toggler></div>
+      </div>
+    </header>
 
     <main>
       <article>
@@ -32,6 +92,9 @@
         <section class="section hero" aria-label="hero"></section>
       </article>
     </main>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
 
     <!-- Ionicons -->
     <script
