@@ -1,0 +1,9 @@
+/* ----- HERO ----- */
+
+.hero {
+  background-image: url("../img/hero.png");
+  height: 700px;
+  padding-bottom: 100px;
+  display: cover;
+}
+
