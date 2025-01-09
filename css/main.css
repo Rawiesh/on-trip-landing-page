@@ -138,14 +138,15 @@ body.nav-active {
 
 .hero {
   background-image: url("../img/hero.png");
-  height: 700px;
-  padding-bottom: 100px;
-  display: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 12.8rem;
+  padding-bottom: 4.8rem;
 }
 
 .hero-title {
-  padding-top: 30rem;
-  font-size: 4.8rem;
+  font-size: 4rem;
   color: #e7f6ff;
   text-align: center;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6),
@@ -153,6 +154,7 @@ body.nav-active {
 }
 
 .explore-box {
+  margin-top: 4rem;
   background: linear-gradient(to bottom, #e2ebf0, #c0d9e7);
   display: grid;
   gap: 2.4rem;
