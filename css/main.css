@@ -181,3 +181,104 @@ body.nav-active {
 .explore-item-desc {
   color: rgba(0, 0, 0, 0.6);
 }
+
+/* ----- CATEGORIES ----- */
+
+.categories-section {
+  background-color: #e2ebf0;
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.categories {
+  margin-top: 3.2rem;
+  gap: 2.4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.category {
+  width: 15rem;
+  height: 15rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  border-radius: 2rem;
+}
+
+.cat-img-container {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cat-img {
+  height: 4rem;
+  width: auto;
+}
+
+.cat-title {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.cat-hotel {
+  border: 1px solid #b57373;
+  box-shadow: 1px 1px 2px 2px rgba(181, 115, 115, 0.8) inset,
+    -1px -1px 2px 2px rgba(181, 115, 115, 0.8) inset;
+}
+
+.cat-hotel .cat-img-container {
+  background-color: #fff2f0;
+}
+
+.cat-to-do {
+  border: 1px solid #61b1b1;
+  box-shadow: 1px 1px 2px 2px rgba(97, 177, 177, 0.8) inset,
+    -1px -1px 2px 2px rgba(97, 177, 177, 0.8) inset;
+}
+
+.cat-to-do .cat-img-container {
+  background-color: #e3f2eb;
+}
+
+.cat-restaurant {
+  border: 1px solid #f3a52f;
+  box-shadow: 1px 1px 2px 2px rgba(243, 165, 47, 0.8) inset,
+    -1px -1px 2px 2px rgba(243, 165, 47, 0.8) inset;
+}
+
+.cat-restaurant .cat-img-container {
+  background-color: #f9ede0;
+}
+
+.cat-booking {
+  border: 1px solid #ad5dc9;
+  box-shadow: 1px 1px 2px 2px rgba(173, 93, 201, 0.8) inset,
+    -1px -1px 2px 2px rgba(173, 93, 201, 0.8) inset;
+}
+
+.cat-booking .cat-img-container {
+  background-color: #f3f0ff;
+}
+
+.cat-tours {
+  border: 1px solid #2e9eef;
+  box-shadow: 1px 1px 2px 2px rgba(46, 158, 239, 0.8) inset,
+    -1px -1px 2px 2px rgba(46, 158, 239, 0.8) inset;
+}
+
+.cat-tours .cat-img-container {
+  background-color: #f2ffff;
+}
