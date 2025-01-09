@@ -151,3 +151,31 @@ body.nav-active {
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6),
     -2px -2px 3px rgba(255, 255, 255, 0.2);
 }
+
+.explore-box {
+  background: linear-gradient(to bottom, #e2ebf0, #c0d9e7);
+  display: grid;
+  gap: 2.4rem;
+  border-radius: 10px;
+  padding: 1.6rem;
+}
+
+.explore-item {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.explore-icon {
+  height: 2.4rem;
+  width: auto;
+}
+
+.explore-item-title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.explore-item-desc {
+  color: rgba(0, 0, 0, 0.6);
+}

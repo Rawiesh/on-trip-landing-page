@@ -49,3 +49,13 @@ li {
   background: linear-gradient(to bottom, #e2ebf0, #c0d9e7);
   color: #425e6f;
 }
+
+.btn-secondary {
+  background-color: #425e6f;
+  color: #fff;
+}
+
+.btn.has-icon {
+  display: flex;
+  gap: 0.8rem;
+}
