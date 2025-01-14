@@ -348,3 +348,80 @@ body.nav-active {
   font-size: 3.3rem;
   -webkit-text-stroke: 0.5px black;
 }
+
+/* PACKAGES */
+
+.packages-section {
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+  background-color: #e2ebf0;
+}
+
+.packages-section h2 {
+  text-align: center;
+}
+
+.packages {
+  margin-top: 3.2rem;
+  display: grid;
+  gap: 2.4rem;
+}
+
+.package {
+  background-color: #fff;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.package-content {
+  padding: 1.6rem;
+}
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.package-title {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.rating {
+  background-color: #425e6f;
+}
+
+.title-row .rating {
+  color: #fff;
+  padding: 0.2rem 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  border-radius: 0.4rem;
+}
+
+.package-description {
+  margin-top: 1.6rem;
+  color: rgba(66, 94, 111, 0.68);
+}
+
+.flight-row {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #425e6f;
+}
+
+.trip-days {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.package .btn {
+  margin-top: 2rem;
+}
